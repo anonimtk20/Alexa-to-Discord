@@ -58,7 +58,7 @@
                     "slots": [
                         {
                             "name": "Guild",
-                            "type": ""
+                            "type": "AMAZON.NUMBER"
                         }
                     ],
                     "samples": [
@@ -78,6 +78,10 @@
                 },
                 {
                     "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
                     "samples": []
                 }
             ],
