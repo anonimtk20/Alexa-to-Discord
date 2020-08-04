@@ -1,37 +1,57 @@
 {
-  "intents": [
-    {
-      "intent": "GetAllChannelsFromGuildIntent"
-    },
-    {
-      "intent": "GetVoiceChannelsFromGuildIntent"
-    },
-    {
-      "intent": "GetTextChannelsFromGuildIntent"
-    },
-    {
-      "intent": "GetRolesFromGuildIntent"
-    },
-    {
-      "intent": "GetGuildsIntent"
-    },
-    {
-      "intent": "SelectGuildIntent",
-      "slots": [
-        {
-          "name": "Guild",
-          "type": "AMAZON.NUMBER"
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "discord manager",
+            "intents": [
+                {
+                    "name": "GetAllChannelsFromGuildIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "GetVoiceChannelsFromGuildIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "GetTextChannelsFromGuildIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "GetRolesFromGuildIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "GetGuildsIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SelectGuildIntent",
+                    "slots": [
+                        {
+                            "name": "Guild",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
         }
-      ]
-    },
-    {
-      "intent": "AMAZON.HelpIntent"
-    },
-    {
-      "intent":"AMAZON.CancelIntent"
-    },
-    {
-      "intent":"AMAZON.StopIntent"
     }
-  ]
 }
