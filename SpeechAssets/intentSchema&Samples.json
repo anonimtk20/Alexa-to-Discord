@@ -6,37 +6,67 @@
                 {
                     "name": "GetAllChannelsFromGuildIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                        "show all channels",
+                        "voice channels",
+                        "all channels",
+                        "get all channels"
+                    ]
                 },
                 {
                     "name": "GetVoiceChannelsFromGuildIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                        "fetch voice channels",
+                        "show voice channels",
+                        "voice channels",
+                        "get voice channels"
+                    ]
                 },
                 {
                     "name": "GetTextChannelsFromGuildIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                        "fetch text channels",
+                        "show text channels",
+                        "text channels",
+                        "get text channels"
+                    ]
                 },
                 {
                     "name": "GetRolesFromGuildIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                        "fetch roles",
+                        "show roles",
+                        "all roles",
+                        "get roles"
+                    ]
                 },
                 {
                     "name": "GetGuildsIntent",
                     "slots": [],
-                    "samples": []
+                    "samples": [
+                        "fetch guilds",
+                        "show guilds",
+                        "guilds",
+                        "get guilds"
+                    ]
                 },
                 {
                     "name": "SelectGuildIntent",
                     "slots": [
                         {
                             "name": "Guild",
-                            "type": "AMAZON.NUMBER"
+                            "type": ""
                         }
                     ],
-                    "samples": []
+                    "samples": [
+                        "guild {Guild}",
+                        "elect guild {Guild}",
+                        "choose guild {Guild}",
+                        "select guild {Guild}"
+                    ]
                 },
                 {
                     "name": "AMAZON.HelpIntent",
